@@ -1,9 +1,13 @@
 This project employs _local_ Large Language Models to summarise a given list of .pdf documents. The codebase is largely based on [this](https://github.com/debugverse/debugverse-youtube/tree/main/summarize_huge_documents_kmeans) work.
 
 It achieves this in four fundamental steps:
+
 1- it loads the .pdf document and splits it in chunks of a given size
+
 2- it embeds the chunks in a latent space (https://huggingface.co/BAAI/bge-large-en-v1.5)
+
 3- it performs k-means clustering in the latent space, to clump chunks by similarity
+
 4- it summarizes the resulting clustered chunks into one final text
 
 ### Installation & requirements
@@ -55,8 +59,11 @@ The values have been fine tuned manually to reproduce reasonable results. Multip
 Instructional videos on LLMs and summarizing:
 
 https://www.youtube.com/watch?v=doRpfmXncEE - simplest approach, feeds documents directly to the LLMs' context and prompts
+
 https://www.youtube.com/watch?v=_XayFqTk3EY - project that allows taking to your pdf, so you can ask questions about the paper
+
 https://www.youtube.com/watch?v=Gn64NNr3bqU - explainer of the clustering method we use here
+
 https://www.youtube.com/watch?v=qaPMdcCqtWk - multiple methods outlined one by one
 
 
