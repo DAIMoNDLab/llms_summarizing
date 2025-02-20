@@ -60,7 +60,7 @@ Instructional videos on LLMs and summarizing:
 
 https://www.youtube.com/watch?v=doRpfmXncEE - simplest approach, feeds documents directly to the LLMs' context and prompts
 
-https://www.youtube.com/watch?v=_XayFqTk3EY - project that allows taking to your pdf, so you can ask questions about the paper
+https://www.youtube.com/watch?v=_XayFqTk3EY - project that allows talking to your pdf, so you can ask questions about the paper
 
 https://www.youtube.com/watch?v=Gn64NNr3bqU - explainer of the clustering method we use here
 
@@ -70,6 +70,9 @@ https://www.youtube.com/watch?v=qaPMdcCqtWk - multiple methods outlined one by o
 Further reading:
 
 https://aclanthology.org/2020.acl-main.463.pdf - what do LLMs even learn, precisely?
+
 https://llm-calc.rayfernando.ai - a simple tool that helps you figure out how much memory you need for your LLM
+
 https://mlco2.github.io/impact/ - another tool that allows you to estimate the CO2 emissions associated with your AI
+
 
